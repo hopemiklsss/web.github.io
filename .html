@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <style>
+         header{
+            text-decoration: none;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100px;
+                background-color: lightgrey;
+         }
+         a{
+            padding: 10px 20px;
+            text-decoration: none;
+            color:inherit;
+            font-variant: small-caps;
+         }
+         .head, .psychology, .veb, .psy{
+            color:rgb(0, 0, 0)
+         }
+       .head:hover{
+        color:blue;
+        transition: 0.3s;
+       }
+       .psychology:hover{
+        color:blue;
+        transition: 0.3s;
+       }
+       .veb:hover{
+        color:blue;
+        transition: 0.3s;
+       }
+       .psy:hover{
+        color:blue;
+        transition: 0.3s;
+       }
+       .vuvod:hover{
+        color:blue;
+        transition: 0.3s;}
+       tittle{
+        color:white
+       }
+       main{
+        text-align: center;
+        font-variant: small-caps;
+       }
+       .logo{
+        margin-right: 100px;
+        letter-spacing: 5px;
+        cursor: pointer;
+       }
+       .search{
+        border:solid 1px black;
+        border-radius: 20px;
+        height: 40px;
+        margin-left:200px ;
+       }
+       form{
+        display: flex;
+        flex-direction: row;
+       }
+         input {
+            padding-left: 15px;
+            width: 170px;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 19px;
+            color:black;
+            background: transparent;
+            margin-top: -2px;
+         }
+         .btn-search{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+         }
+         img{
+            margin-right: 5px;
+         }
+         body{
+            background-color: rgb(218, 218, 218);
+         }
+.list{
+    list-style: none;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+h1{font-variant: small-caps;
+font-family: fantasy;}
+.container{
+    background-color: rgba(197, 198, 199, 0.582);
+    height: 100%;
+    padding: 10px;
+    display: inline-block
+}
+.frontend{
+    text-align: left;
+}
+ol{
+    font-size: 18px;
+}
+.dev{
+    font-size: 20px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+}
+footer{
+    text-align: center;
+    font-variant: small-caps;
+    background-color: rgba(185, 185, 185, 0.527);
+}
+.vud{
+    letter-spacing: 5px;
+}
+
+        </style>
+        <header>
+            <div class="logo">
+                <h1>ВЕБ-РАЗРАБОТКА</h1>
+                </div>
+            <nav>
+                <a class="head" href="#head">Вступление</a>
+                <a class="psychology" href="#psychology">Frontend-разработка</a>
+                <a class="veb" href="#veb">Backend-разработка</a>
+                <a class="psy" href="#psy">Fullstack-разработка</a>
+                <a class="vuvod" href="#vuvod">Вывод</a>
+            </nav>
+            <div class="search">
+                <form action="" method=""></form>
+                <input type="text" placeholder="поиск">
+                <button type="submit" class="btn-search"><img src="https://opt-baza61.ru/local/templates/eshop_bootstrap_v4/images/lupa.png" width="20px" height="20px" alt="search"> </button>
+            </div>
+        </header>
+        <main>
+            <section id="head">
+                <h2>Вступление</h2>
+                <p>Мы разберем такие три направления в <b>веб-разработке:</b></p>
+                <ul class="list">
+                    <li>Frontend-разработка</li>
+                    <li>Backend-разработка</li>
+                    <li>Fullstack разработка</li>
+                </ul>
+                <h3>Введение и основные понятия</h3>
+                <div class="container">
+                <p>Веб-разработка — это процесс создания и поддержания веб-сайтов.
+                    <br> Она включает в себя множество аспектов, таких как веб-дизайн,<br>веб-программирование, управление базами данных и многое другое.<br> Веб-разработка делится на две основные части: фронтенд и бэкенд.
+                    <br>В этой статье мы рассмотрим основные понятия и технологии,<br>
+                     которые помогут вам начать свой путь в этой увлекательной области.<br>
+                     Веб-сайт — это совокупность связанных между собой веб-страниц,
+                      которые доступны через интернет.<br> Веб-страница — это отдельный документ, который может содержать текст, изображения, видео и другие элементы.<br>.
+            </div>
+        </section>
+        <section id="psychology">
+            <h2 class="frontend">Frontend-разработка</h2>
+            <p class="frontend"><b>Фронтенд-разработка</b> — это создание пользовательского<br> интерфейса на клиентской стороне веб-сайта или приложения.<br> 
+                Это всё, что видит пользователь, когда открывает веб-страницу,<br> и с чем он взаимодействует: кнопки, баннеры и анимация.
+                Чтобы понять, что собой представляет фронтенд, откройте страницу любого сайта<br> — вы увидите интерфейс. Щёлкните правой кнопкой мыши по странице,
+                 выберите пункт «Исходный код страницы»,<br>и перед вами откроется… её исходный код :)</p>
+                <h3 class="frontend">Основные компоненты фронтенд-разработки</h3>
+                <ol>
+                    <li class="frontend">HTML (HyperText Markup Language) — язык разметки документов, на котором создают структуру страницы: заголовки, абзацы, списки и так далее.</li>
+                    <li class="frontend">CSS (Cascading Style Sheets) — язык для описания и стилизации внешнего вида документа. Например, CSS задаёт цвета и параметры шрифтов, определяет, как будут располагаться разные блоки сайта. </li>
+                    <li class="frontend">JavaScript — это язык, который оживляет веб-страницы. Его задача — реагировать на действия пользователя, обрабатывать клики мышки, перемещения курсора, нажатия клавиш. Ещё он посылает запросы на сервер и загружает данные без перезагрузки страницы, позволяет вводить сообщения и многое другое.</li>
+                </ol>
+                <h3 class="frontend">Обязанности фронтенд разработчика</h3>
+                <ul class="dev">
+                    <li class="frontend"><b>Создание пользовательского интерфейса.</b><br>Создание и расположение всех элементов,
+                        <br> с которыми взаимодействует пользователь:<br> кнопок, форм, меню, слайдеров, галереи обоев</li>
+                    <li class="frontend"><b>Вёрстка.</b><br>Разработчик стилизует элементы на странице,<br>чтобы информация отображалась правильно.</li>
+                    <li class="frontend"><b>Интерактивность.</b> « Оживление» страниц с помощью интерактивных элементов,<br> анимаций и скриптов обработки действий пользователя. </li>
+                    <li class="frontend"><b>Адаптивность.</b> Фронтендер делает сайт «гибким»,<br> чтобы он хорошо отображался на различных устройствах и экранах.</li>
+                    <li class="frontend"><b>Тестирование и оптимизация.</b> Фронтендер тестирует работоспособность интерфейса,<br>
+                         исправляет ошибки и оптимизирует производительность для быстрой загрузки страниц. </li>
+                         <li class="frontend"><b>Поддержка и обновление существующих проектов.</b><br>Регулярное обновление и поддержка существующих веб-приложений,<br>
+                             исправление багов, добавление новых функций и улучшение пользовательского интерфейса.</li>
+                </ul>
+        </section>
+        <section id="veb">
+            <h2 class="frontend">Backend-разработка</h2>
+            <p class="frontend"><b>Бэкенд-разработчик</b> — это специалист,<br> который занимается серверной частью сайтов, мобильных и десктопных приложений и игр.<br> Он реализует внутреннюю логику работы приложения, обеспечивает его взаимодействие с базами данных и внешними сервисами.</p>
+            <h3 class="frontend">Обязанности бэкенд разработчика</h3>
+            <ul class="dev">
+                <li class="frontend">реализация бизнес-логики приложения.</li>
+                <li class="frontend">организация работы баз данных.</li>
+                <li class="frontend">настройка работы сервера и мониторинг его состояния.</li>
+                <li class="frontend">разработка и документирование API.</li>
+                <li class="frontend">интеграция с внешними сервисами.</li>
+                <li class="frontend">настройка резервного копирования данных.</li>
+            </ul>
+            <h3 class="frontend">Основные компоненты бэкенд-разработки</h3>
+            <ol>
+                <li class="frontend"><b>Языки программирования.</b>
+                    <br> Минимум один из классических языков программирования для бэкенда:
+                     Java, Python, Ruby, PHP или C#. </li>
+                <li class="frontend"><b>Базы данных и ORM.</b><br> Язык запросов SQL и умение работать с реляционными<br> (MySQL, PostgreSQL или Oracle DB)
+                     и нереляционными (MongoDB или Redis) базами данных</li>
+                <li class="frontend"><b>API внешних сервисов.</b><br>
+                     Набор правил и методов взаимодействия с внешними сервисами, позволяющий интегрировать их в сайт.</li>
+                <li class="frontend"><b>Инструменты сетевой безопасности.</b><br> Важно учитывать при проектировании приложений и написании кода,
+                    <br> соблюдая общепринятые стандарты безопасности. </li>
+                <li class="frontend"><b>Протоколы передачи информации HTTP и HTTPS.</b><br> Они используются для передачи данных между разными источниками 
+                    <br>— как правило, между компьютером и сервером.</li>
+            </ol>
+        </section>
+        <section id="psy">
+            <h2 class="frontend">Fullstack-разработка</h2>
+            <p class="frontend"><b>Фуллстак-разработчик</b><br> — это программист, который может самостоятельно сделать проект.<br>
+
+                Такой специалист отвечает как за визуальную пользовательскую часть (frontend),<br> так и за серверную, программно-аппаратную часть веб-приложения (backend) и связывает их вместе.</p>
+                <h3 class="frontend">Обязанности фуллстэк разработчика</h3>
+                <ul class="dev">
+                    <li class="frontend">создаёт систему и архитектуру приложения
+                    </li>
+                    <li class="frontend">разрабатывает кроссплатформенные приложения.</li>
+                    <li class="frontend">отвечает за программный интерфейс приложения (API).</li>
+                    <li class="frontend">пишет код для клиентской и серверной части продукта.</li>
+                    <li class="frontend">интегрирует внешние сервисы на frontend- и backend-e.</li>
+                    <li class="frontend">занимается отладкой программы (дебаггинг.)</li>
+                </ul>
+                <p class="frontend">Фуллстак-разработчик совмещает в себе навыки<br>
+                бэкенд-разработчика и Фронтенд-разработчика</p>
+        </section>
+        </main>
+        <footer>
+            <section id="vuvod">
+                <h2 class="vud">Вывод</h2>
+                <div class="vuvods">
+                    <p>Это развивающееся направление.<br> С ростом интернета и появлением новых технологий веб-разработка также развивается и усложняется.<br> У специалистов 
+                        <br> в этой сфере всегда есть возможности для роста<br>и развития своих навыков. </p>
+                     <p>Высокооплачиваемая работа.<br>
+                         Спрос на веб-разработчиков высок, <br>поэтому они могут рассчитывать на высокую зарплату.</p>
+                    <p>Множество возможностей для творчества.<br> Веб-разработчики имеют широкий спектр инструментов и технологий
+                         для создания уникальных <br>и интересных веб-сайтов и приложений. </p>
+                         <p>Гибкость в выборе рабочего места и графика работы.<br>Веб-разработчики могут работать в офисе, удалённо,<br>полный рабочий день или частично.</p>
+                        </div>
+            </section>
+            
+        </footer>
+    </body>
+</html>
